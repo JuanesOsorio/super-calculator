@@ -14,6 +14,11 @@ while run == True:
     b = int(input("Dame el número 2...."))
     
     if selection == 1:
-        resultado= a + b
+        resultado = a + b
         print(f"la respeusta es {resultado}")
         print("")
+    elif selection == 2:
+        resultado = a - b
+    print(f"la resta entre {a} - {b} es: {resultado}")
+    print("")
+    
