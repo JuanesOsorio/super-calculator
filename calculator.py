@@ -1,5 +1,7 @@
 run=True
 while run == True:
+    print("")
+    print("")
     print("Bienvenido a la calculadora")
     print("que operación deseas hacer? selecciona el número de la que deseas")
     print("")
@@ -19,6 +21,6 @@ while run == True:
         print("")
     elif selection == 2:
         resultado = a - b
-    print(f"la resta entre {a} - {b} es: {resultado}")
-    print("")
+        print(f"la resta entre {a} - {b} es: {resultado}")
+        print("")
     
