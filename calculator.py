@@ -10,8 +10,13 @@ while run == True:
     print("3. Multiplicar")
     print("4. Dividir")
     print("5. Salir")
-
+        
     selection=int(input("..."))
+
+    if selection == 5:
+        run = False
+        break
+        
     a = int(input("Dame el número 1...."))
     b = int(input("Dame el número 2...."))
     
@@ -23,4 +28,13 @@ while run == True:
         resultado = a - b
         print(f"la resta entre {a} - {b} es: {resultado}")
         print("")
+    elif selection == 3:
+        resultado = a * b
+        print(f"el resultado es {resultado}")
+        print("")
+    elif selection == 4:
+        resultado = a / b
+        print(f"el resultado es {resultado}")
+        print("")
+
     
